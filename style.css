@@ -8,3 +8,38 @@ div{
 button{
     border-radius:10px;
 }
+/* Whole page */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Paragraphs */
+p {
+    color: green;
+    font-size: 22px;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+/* Buttons */
+button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkorange;
+}
