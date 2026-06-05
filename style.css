@@ -1,48 +1,35 @@
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-div {
+.card {
     width: 80%;
-    min-height: 80vh;
-    margin: 20px auto;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 20px;
+    margin: 30px auto;
     padding: 30px;
+    background-color: white;
     text-align: center;
-    box-shadow: 0 4px 15px gray;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px gray;
 }
 
 h1 {
     color: darkblue;
-    font-size: 40px;
 }
 
 p {
-    color: #333;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 button {
     background-color: royalblue;
     color: white;
-    font-size: 20px;
-    padding: 12px 25px;
     border: none;
+    padding: 12px 20px;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 button:hover {
     background-color: navy;
-}
-
-#number {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    color: green;
 }
